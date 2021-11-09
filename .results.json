@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-11-09T20:25:39.270Z",
+    "end": "2021-11-09T20:25:40.075Z",
+    "duration": 805
+  },
+  "tests": [
+    {
+      "title": "animalFavorito es igual al string 'perro'",
+      "fullTitle": "index.js animalFavorito es igual al string 'perro'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: animalFavorito is not defined\n    at Context.<anonymous> (test/indexTest.js:4:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "animalFavorito is not defined"
+      }
+    },
+    {
+      "title": "edad es igual al numero 18",
+      "fullTitle": "index.js edad es igual al numero 18",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: edad is not defined\n    at Context.<anonymous> (test/indexTest.js:8:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "edad is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "animalFavorito es igual al string 'perro'",
+      "fullTitle": "index.js animalFavorito es igual al string 'perro'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: animalFavorito is not defined\n    at Context.<anonymous> (test/indexTest.js:4:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "animalFavorito is not defined"
+      }
+    },
+    {
+      "title": "edad es igual al numero 18",
+      "fullTitle": "index.js edad es igual al numero 18",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: edad is not defined\n    at Context.<anonymous> (test/indexTest.js:8:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "edad is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
